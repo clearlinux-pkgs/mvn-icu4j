@@ -4,7 +4,7 @@
 #
 Name     : mvn-icu4j
 Version  : 56.1
-Release  : 2
+Release  : 3
 URL      : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.jar
 Source0  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.jar
 Source1  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/54.1/icu4j-54.1.jar
@@ -12,6 +12,8 @@ Source2  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/54.1/icu4j-54.1.pom
 Source3  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.pom
 Source4  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/58.1/icu4j-58.1.jar
 Source5  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/58.1/icu4j-58.1.pom
+Source6  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.jar
+Source7  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/58.2/icu4j-58.2.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : ICU
@@ -51,6 +53,12 @@ cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.1
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.1
 cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.1
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.2
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.2
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.2
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.2
+
 
 %files
 %defattr(-,root,root,-)
@@ -63,3 +71,5 @@ cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.1
 /usr/share/java/.m2/repository/com/ibm/icu/icu4j/56.1/icu4j-56.1.pom
 /usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.1/icu4j-58.1.jar
 /usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.1/icu4j-58.1.pom
+/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.2/icu4j-58.2.jar
+/usr/share/java/.m2/repository/com/ibm/icu/icu4j/58.2/icu4j-58.2.pom
