@@ -4,7 +4,7 @@
 #
 Name     : mvn-icu4j
 Version  : 56.1
-Release  : 3
+Release  : 4
 URL      : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.jar
 Source0  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/56.1/icu4j-56.1.jar
 Source1  : https://repo1.maven.org/maven2/com/ibm/icu/icu4j/54.1/icu4j-54.1.jar
